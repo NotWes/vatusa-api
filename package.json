@@ -1,0 +1,19 @@
+{
+  "name": "vatusa-api",
+  "version": "1.0.0",
+  "description": "a library for VATUSA's API written in Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotWes/vatusa-api.git"
+  },
+  "author": "Wes Loeffler",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NotWes/vatusa-api/issues"
+  },
+  "homepage": "https://github.com/NotWes/vatusa-api#readme"
+}
