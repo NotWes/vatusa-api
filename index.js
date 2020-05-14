@@ -4,6 +4,17 @@
  */
 
  const facility = require('./lib/facility');
- module.exports = facility;
  const transfer = require('./lib/transfer');
- module.exports = transfer;
+ const exam = require('./lib/exam');
+ const rating = require('./lib/rating');
+ const role = require('./lib/role');
+ const solo = require('./lib/solo');
+
+ module.exports = {
+     facility: facility,
+     transfer: transfer,
+     exam: exam,
+     rating: rating,
+     role: role,
+     solo: solo
+ }
