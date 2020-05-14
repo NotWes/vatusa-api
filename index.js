@@ -3,18 +3,6 @@
  * @author Wes Loeffler
  */
 
- const facility = require('./lib/facility');
- const transfer = require('./lib/transfer');
- const exam = require('./lib/exam');
- const rating = require('./lib/rating');
- const role = require('./lib/role');
- const solo = require('./lib/solo');
+ const VATUSA = require('./lib/vatusa');
 
- module.exports = {
-     facility: facility,
-     transfer: transfer,
-     exam: exam,
-     rating: rating,
-     role: role,
-     solo: solo
- }
+ module.exports = VATUSA;
